@@ -1,34 +1,33 @@
 <nav class="navbar navbar-expand-lg navbar-light bg">
-    <a class="navbar-brand" href="#">Navbar scroll</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            Link
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Link</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarScroll">
+    <ul class="navbar-nav mr-auto  navbar-nav-scroll d-flex align-items-center " style="max-height: 100px;">
+      <li class="nav-item active">
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQGUUvs5fh9PnA/profile-displayphoto-shrink_800_800/0/1656084890403?e=1667433600&v=beta&t=RevfTfLmFs6yDzbKGSXrXQ38EDBylUH0gT1Ejx2FKk0"
+          alt="foto de perfil do usuario" width="60px" height="60px" class="img-fluid rounded-circle">
+      </li>
+      <li class="nav-item pl-2">
+        <p class="m-3 font-weight-bold text-uppercase text-white fs-16">Nicolle Gianinni (nome do usuario)</p>
+      </li>
+      <li class="nav-item pl-2">
+        <a href="">
+          <p class="text-white fs-16 m-2"><i class="fa fa-pencil-square-o  " aria-hidden="true"></i></p>
+        </a>
+      </li>
+
+    </ul>
+
+    <ul class="navbar-nav ml-auto navbar-nav-scroll d-flex align-items-center " style="max-height: 100px;">
+      <li class="nav-item pl-2">
+        <button class="m-3 font-weight-bold text-uppercase text-white fs-16">sair  <i class="fa fa-sign-out m-2"
+            aria-hidden="true"></i></button >
+      </li>
+    </ul>
+
+  </div>
+</nav>
