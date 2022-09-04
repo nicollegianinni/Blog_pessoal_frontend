@@ -1,0 +1,14 @@
+#img-bg{
+
+    background-image: url(../../assets/img/foto-cadastrar.png);
+    min-height: 965px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo-bg {
+
+    background-color:rgb(250, 249, 254);
+    min-height: 965px;
+}
