@@ -8,11 +8,11 @@
     <ul class="navbar-nav mr-auto  navbar-nav-scroll d-flex align-items-center " style="max-height: 100px;">
       <li class="nav-item active">
         <img
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQGUUvs5fh9PnA/profile-displayphoto-shrink_800_800/0/1656084890403?e=1667433600&v=beta&t=RevfTfLmFs6yDzbKGSXrXQ38EDBylUH0gT1Ejx2FKk0"
+          src="{{foto}}"
           alt="foto de perfil do usuario" width="60px" height="60px" class="img-fluid rounded-circle">
       </li>
       <li class="nav-item pl-2">
-        <p class="m-3 font-weight-bold text-uppercase text-white fs-16">Nicolle Gianinni (nome do usuario)</p>
+        <p class="m-3 font-weight-bold text-uppercase text-white fs-16">{{nome}}</p>
       </li>
       <li class="nav-item pl-2">
         <a href="">
@@ -24,7 +24,7 @@
 
     <ul class="navbar-nav ml-auto navbar-nav-scroll d-flex align-items-center " style="max-height: 100px;">
       <li class="nav-item pl-2">
-        <button type="button"  class="btn btn-outline-light  m-3 font-weight-bold text-uppercase  fs-10">sair  <i class="fa fa-sign-out m-2"
+        <button (click='sair()') type="button"  class="btn btn-outline-light  m-3 font-weight-bold text-uppercase  fs-10">sair  <i class="fa fa-sign-out m-2"
             aria-hidden="true"></i></button >
       </li>
     </ul>
